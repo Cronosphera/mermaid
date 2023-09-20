@@ -1,19 +1,59 @@
-# Mindmap
+graph TD
 
-> Mindmap: This is an experimental diagram for now. The syntax and properties can change in future releases. The syntax is stable except for the icon integration which is the experimental part.
+subgraph Language
+    A(Language)
+    A1[Spanish is the official language.]
+    A2[Local slang and expressions are common.]
+end
 
-"A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas." Wikipedia
+subgraph Religion
+    B(Religion)
+    B1[Predominantly Roman Catholic with strong religious traditions.]
+    B2[Celebrations like Semana Santa (Holy Week) are important.]
+end
 
-### An example of a mindmap.
+subgraph Food
+    C(Food)
+    C1[Traditional dishes like rice and beans (moros y cristianos), tostones (fried plantains), and sancocho (stew).]
+    C2[Love for tropical fruits like mangoes and coconuts.]
+end
 
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
+subgraph MusicDance
+    D(Music and Dance)
+    D1[Merengue and bachata music are popular.]
+    D2[Dancing is a big part of celebrations and gatherings.]
+end
+
+subgraph Festivals
+    E(Festivals)
+    E1[Carnival is a colorful and lively celebration.]
+    E2[Local festivals honor patron saints in various regions.]
+end
+
+subgraph Sports
+    F(Sports)
+    F1[Passion for baseball, with many Dominicans playing in the MLB.]
+    F2[Basketball and boxing are also popular.]
+end
+
+subgraph Family
+    G(Family)
+    G1[Strong emphasis on close-knit family ties.]
+    G2[Extended families often live near each other.]
+end
+
+subgraph ArtCraft
+    H(Art and Craft)
+    H1[Talented artisans create handcrafted items like cigars and amber jewelry.]
+    H2[Vibrant paintings and sculptures reflect Dominican culture.]
+end
+
+subgraph History
+    I(History)
+    I1[We have a large history of Spanish colonization and failed attempts of independence.]
+    I2[National heroes like Juan Pablo Duarte, Francisco del Rosario Sánchez, and Ramón Matías Mella are celebrated.]
+end
+h popular psychology author Tony Buzan
     Research
       On effectiveness<br/>and features
       On Automatic creation
